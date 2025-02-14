@@ -32,18 +32,18 @@ body {
   }
   
   /* Responsive Design */
-  /* @media (max-width: 768px) {
+  @media (max-width: 768px) {
     .hero {
       height: 300px;
       font-size: 1.2rem;
-    } */
-  /* } */
+    }
+  }
   .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background: #ff6600;
+    background:orangered;
     color: white;
   }
   
@@ -58,10 +58,37 @@ body {
     text-decoration: underline;
   }
   .footer {
-    text-align: center;
-    padding: 15px;
     background: #333;
     color: white;
+    text-align: center;
+    padding: 20px;
     margin-top: 20px;
+    font-size: 14px;
+    border-top: 3px solid #ff6600;
   }
-  
+  .footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 15px;
+  }
+
+  .footer-section{
+    max-width: 300px;
+  }
+  .footer-section{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #ff6600;
+  }
+  .footer-section P{
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  .footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    font-size: 12px;
+    color: #bbb;
+  }
