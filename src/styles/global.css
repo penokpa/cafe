@@ -46,6 +46,11 @@ body {
     background:orangered;
     color: white;
   }
+  .navbar-logo img {
+    height: 50px; /* Adjust logo size */
+    width: auto;
+    margin-right: 10px;
+  }
   
   .navbar a {
     color: white;
