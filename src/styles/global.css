@@ -43,8 +43,13 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background:orangered;
+    background:#ff6600;
     color: white;
+  }
+  .navbar-logo img {
+    height: 100px;
+    width: auto;
+    margin-right: 0px;
   }
   
   .navbar a {
