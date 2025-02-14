@@ -57,6 +57,44 @@ body {
   .navbar a:hover {
     text-decoration: underline;
   }
+  .menu {
+    display: flex;
+    gap:10px;
+
+  }
+  .hamburger {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2 rem;
+    cursor: pointer;
+  }
+  @media (max-width:768px){
+    .menu{
+      display: none;
+      flex-direction: column;
+      background: #ff6600;
+      padding: 10px;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 200px;
+      border-radius: 8px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in-out;
+    }
+    .menu.show {
+      display: flex;
+      transform: translateX(0);
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
+  
   .footer {
     background: #333;
     color: white;
