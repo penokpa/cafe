@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
-import logo from "../images/logo.jpg";
+import logo from "../images/cafelogo.jpg";
 
 const Navbar = () => {
   // Step 1: Add state to handle menu visibility
