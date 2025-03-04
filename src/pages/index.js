@@ -9,8 +9,8 @@ const Home = () => (
     
     {/* Hero Section with Background Image */}
     <section className="hero">
-      <h1>Welcome to Our Cafe</h1>
-      <p>Enjoy the best coffee and meals in town.</p>
+      <h1>About Us</h1>
+      <p>Best Coffee In Town</p>
     </section>
 
     {/* Body Content */}

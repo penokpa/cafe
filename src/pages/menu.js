@@ -1,17 +1,7 @@
-// import React from "react";
-// import { Link } from "gatsby";
-
-// const Menu =()=>(
-// <main>
-//     <h1>Our Menu</h1>
-//     <p>Check out our delicious meals</p>
-//     <Link to="/">Go Back</Link>
-// </main>
-// );
-// export default Menu;
 import React from "react";
 import { Link } from "gatsby";
 import Footer from "../components/Footer";
+import menuImage from"../images/menuimg2.jpg";
 
 const Menu = () => {
   // Array of menu items
@@ -25,6 +15,9 @@ const Menu = () => {
 
   return (
     <main>
+      <div className="menu-header">
+        <img src={menuImage} alt="cafe-menu" className="menu-image"/>
+      </div>
       <h1>Our Menu</h1>
       <p></p>
       <ul>
